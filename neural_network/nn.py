@@ -62,4 +62,4 @@ activation2.forward(layer2.output)
 loss_function = CategoricalEntropyLoss()
 loss = loss_function.calculate(activation2.output, y)
 
-print(loss)
+print(loss) 
